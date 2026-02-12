@@ -6,8 +6,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@react-aria/interactions": "^3.27.0",
     "react": "^19.2.4",
+    "react-aria-components": "^1.15.1",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
