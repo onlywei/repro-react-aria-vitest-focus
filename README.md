@@ -32,7 +32,7 @@ The test should render a button and click it successfully without unhandled runt
 
 ## Notes
 
-- `StepSingleSelect.test.tsx` calls `userEvent.setup()` first.
+- `src/FocusVisibleLazy.test.tsx` calls `userEvent.setup()` first.
 - The test then lazy-loads `FocusVisibleLazy.tsx`.
 - `FocusVisibleLazy.tsx` imports `useFocusVisible` from `@react-aria/interactions`.
 - In this setup, `HTMLElement.prototype.focus` is getter-only by the time React Aria runs its global focus setup, causing the assignment to throw.
