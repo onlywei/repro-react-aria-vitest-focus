@@ -1,6 +1,6 @@
 # repro-react-aria-vitest-focus
 
-Minimal reproduction of a Vitest + Testing Library + React Aria focus conflict.
+Minimal reproduction of a Vitest + Testing Library + React Aria focus conflict using only `Button` from `react-aria-components`.
 
 ## Install
 
@@ -13,6 +13,10 @@ pnpm install
 ```bash
 pnpm test
 ```
+
+Canonical repro file:
+
+`src/ButtonRepro.test.tsx`
 
 ## Actual result
 
